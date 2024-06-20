@@ -1,0 +1,151 @@
+name: flutter_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+
+  flutter_svg: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/vectors/vector_40_x2.svg
+  - assets/vectors/google_logo_2_x2.svg
+  - assets/vectors/medical_prescriptionamico_1_x2.svg
+  - assets/vectors/vector_27_x2.svg
+  - assets/vectors/google_x2.svg
+  - assets/vectors/medical_prescriptionamico_x2.svg
+  - assets/vectors/google_logo_x2.svg
+  - assets/vectors/vector_2_x2.svg
+  - assets/vectors/vector_48_x2.svg
+  - assets/vectors/eye_2_x2.svg
+  - assets/vectors/vector_45_x2.svg
+  - assets/images/ellipse_2.png
+  - assets/vectors/bold_time_calendar_add_x2.svg
+  - assets/vectors/vector_28_x2.svg
+  - assets/vectors/vector_65_x2.svg
+  - assets/vectors/wifi_1_x2.svg
+  - assets/vectors/vector_66_x2.svg
+  - assets/vectors/vector_50_x2.svg
+  - assets/vectors/battery_2_x2.svg
+  - assets/vectors/cellular_connection_6_x2.svg
+  - assets/vectors/search_1_x2.svg
+  - assets/vectors/vector_6_x2.svg
+  - assets/vectors/subtract_1_x2.svg
+  - assets/vectors/vector_24_x2.svg
+  - assets/vectors/bold_folders_folder_with_files_2_x2.svg
+  - assets/vectors/vector_30_x2.svg
+  - assets/images/ellipse_141.png
+  - assets/vectors/container_1_x2.svg
+  - assets/vectors/cellular_connection_x2.svg
+  - assets/vectors/battery_1_x2.svg
+  - assets/vectors/vector_32_x2.svg
+  - assets/vectors/bold_folders_folder_with_files_x2.svg
+  - assets/vectors/rectangle_80_x2.svg
+  - assets/vectors/vector_7_x2.svg
+  - assets/vectors/shape_5_x2.svg
+  - assets/vectors/subtract_2_x2.svg
+  - assets/vectors/rectangle_77_x2.svg
+  - assets/vectors/bold_time_calendar_add_2_x2.svg
+  - assets/vectors/vector_22_x2.svg
+  - assets/vectors/wifi_6_x2.svg
+  - assets/vectors/group_11_x2.svg
+  - assets/vectors/rectangle_98_x2.svg
+  - assets/vectors/vector_58_x2.svg
+  - assets/vectors/rectangle_79_x2.svg
+  - assets/vectors/container_x2.svg
+  - assets/vectors/container_2_x2.svg
+  - assets/vectors/vector_9_x2.svg
+  - assets/images/djvstock_create_aphoto_of_ayoung_man_with_aclean_look_1.png
+  - assets/vectors/battery_4_x2.svg
+  - assets/vectors/bold_folders_folder_with_files_5_x2.svg
+  - assets/vectors/vector_5_x2.svg
+  - assets/vectors/vector_18_x2.svg
+  - assets/vectors/component_31_x2.svg
+  - assets/vectors/vector_15_x2.svg
+  - assets/vectors/vector_51_x2.svg
+  - assets/vectors/shape_3_x2.svg
+  - assets/vectors/vector_31_x2.svg
+  - assets/vectors/subtract_5_x2.svg
+  - assets/vectors/component_34_x2.svg
+  - assets/vectors/vector_53_x2.svg
+  - assets/vectors/component_30_x2.svg
+  - assets/vectors/vector_23_x2.svg
+  - assets/vectors/bold_time_calendar_add_5_x2.svg
+  - assets/vectors/component_29_x2.svg
+  - assets/vectors/cellular_connection_2_x2.svg
+  - assets/vectors/vector_67_x2.svg
+  - assets/vectors/component_32_x2.svg
+  - assets/vectors/component_33_x2.svg
+  - assets/vectors/wifi_5_x2.svg
+  - assets/vectors/component_35_x2.svg
+  - assets/images/ellipse_2.png
+  - assets/vectors/group_25_x2.svg
+  - assets/vectors/wifi_7_x2.svg
+  - assets/vectors/group_20_x2.svg
+  - assets/vectors/battery_7_x2.svg
+  - assets/vectors/group_24_x2.svg
+  - assets/vectors/group_211_x2.svg
+  - assets/vectors/search_x2.svg
+  - assets/vectors/group_201_x2.svg
+  - assets/vectors/group_21_x2.svg
+  - assets/vectors/vector_16_x2.svg
+  - assets/vectors/subtract_x2.svg
+  - assets/vectors/bold_time_calendar_add_4_x2.svg
+  - assets/vectors/group_34214_x2.svg
+  - assets/vectors/cellular_connection_4_x2.svg
+  - assets/vectors/bold_folders_folder_with_files_6_x2.svg
+  - assets/vectors/group_251_x2.svg
+  - assets/images/icon.jpeg
+  - assets/vectors/vector_62_x2.svg
+  - assets/vectors/subtract_6_x2.svg
+  - assets/vectors/vector_21_x2.svg
+  - assets/vectors/wifi_4_x2.svg
+  - assets/vectors/shape_2_x2.svg
+  - assets/vectors/group_111_x2.svg
+  - assets/vectors/vector_42_x2.svg
+  - assets/vectors/bold_folders_folder_with_files_1_x2.svg
+  - assets/vectors/bold_time_calendar_add_1_x2.svg
+  - assets/vectors/cellular_connection_3_x2.svg
+  - assets/vectors/vector_59_x2.svg
+  - assets/vectors/vector_37_x2.svg
+  - assets/vectors/battery_5_x2.svg
+  - assets/images/rectangle_1093.png
+  - assets/images/ellipse_308.png
+  - assets/images/rectangle_1092.png
+  - assets/images/rectangle_10921.png
+  - assets/vectors/bold_folders_folder_with_files_3_x2.svg
+  - assets/vectors/vector_55_x2.svg
+  - assets/vectors/battery_6_x2.svg
+  - assets/vectors/subtract_4_x2.svg
+  - assets/vectors/shape_6_x2.svg
+  - assets/vectors/bold_time_calendar_add_6_x2.svg
+  - assets/vectors/cellular_connection_1_x2.svg
+  - assets/vectors/wifi_3_x2.svg
+  - assets/vectors/vector_63_x2.svg
+  - assets/vectors/vector_60_x2.svg
+  - assets/vectors/wifi_2_x2.svg
+  - assets/vectors/bold_time_calendar_add_3_x2.svg
+  - assets/vectors/vector_43_x2.svg
+  - assets/vectors/subtract_3_x2.svg
+  - assets/vectors/vector_56_x2.svg
+  - assets/vectors/vector_12_x2.svg
+  - assets/vectors/battery_x2.svg
+  - assets/vectors/vector_41_x2.svg
+  - assets/vectors/cellular_connection_5_x2.svg
+  - assets/vectors/bold_folders_folder_with_files_4_x2.svg
+  - assets/vectors/shape_x2.svg
+
