@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/home.dart';
 // ignore: unused_import
 import 'package:flutter_app/pages/intro.dart';
+// ignore: unused_import
 import 'package:flutter_app/pages/profile.dart';
 // ignore: unused_import
 import 'package:flutter_app/pages/sign_up.dart';
@@ -25,9 +26,9 @@ class MyApp extends StatelessWidget {
         // body: Chat2(),
         // body: Home(),
         // body: Homedoctor(),
-        // body: Intro(),
+         body: Intro(),
         // body: LogIn(),
-         body: Profile(),
+        // body: Profile(),
         // body: Records(),
         // body: SignUp(),
 
