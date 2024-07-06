@@ -471,7 +471,7 @@ class Records extends StatelessWidget {
                             ),
                           ),
                           Text(
-                            'Analisys',
+                            'Analiysis',
                             style: GoogleFonts.getFont(
                               'League Spartan',
                               fontWeight: FontWeight.w500,
@@ -578,7 +578,7 @@ class Records extends StatelessWidget {
                 ],
               ),
             ),
-            ClipRect(
+            /*ClipRect(
               child: BackdropFilter(
                 filter: ImageFilter.blur(
                   sigmaX: 10,
@@ -753,7 +753,7 @@ class Records extends StatelessWidget {
                   ),
                 ),
               ),
-            ),
+            ),*/
           ],
         ),
       ),
