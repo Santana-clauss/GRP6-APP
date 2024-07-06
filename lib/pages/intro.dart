@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_app/pages/home.dart';
 
 class Intro extends StatelessWidget {
   const Intro({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return 
-    Container(
+    return Container(
       decoration: BoxDecoration(
         color: const Color(0xFFFFFFFF),
         borderRadius: BorderRadius.circular(32),
@@ -120,7 +120,6 @@ class Intro extends StatelessWidget {
                               'More to Health',
                               style: GoogleFonts.getFont(
                                 'Roboto Condensed',
-                                
                                 fontWeight: FontWeight.w600,
                                 fontSize: 20,
                                 color: const Color(0xFF30384F),
@@ -146,14 +145,22 @@ class Intro extends StatelessWidget {
                   width: 262,
                   height: 40,
                   padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
-                  child: Text(
-                    'Log in as Patient',
-                    style: GoogleFonts.getFont(
-                      'Poppins',
-                      fontWeight: FontWeight.w500,
-                      fontSize: 14,
-                      height: 1.4,
-                      color: const Color(0xFFFFFFFF),
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const Home()),
+                        ); //navigates from the intro screen to the home screen on tapped
+                    },
+                    child: Text(
+                      'Log in as Patient',
+                      style: GoogleFonts.getFont(
+                        'Poppins',
+                        fontWeight: FontWeight.w500,
+                        fontSize: 14,
+                        height: 1.4,
+                        color: const Color(0xFFFFFFFF),
+                      ),
                     ),
                   ),
                 ),
